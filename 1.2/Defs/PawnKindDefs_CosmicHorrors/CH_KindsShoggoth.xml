@@ -204,10 +204,10 @@
         <chanceFactor>0.25</chanceFactor>
       </li>
     </tools>
-    <comps>
-      <li Class="CompBalloon.CompProperties_Balloon">
-      </li>
-    </comps>
+    <!-- <comps> -->
+    <!-- <li Class="CompBalloon.CompProperties_Balloon"> -->
+    <!-- </li> -->
+    <!-- </comps> -->
     <race>
       <bloodDef>ROM_Filth_BloodShoggoth</bloodDef>
       <hasGenders>false</hasGenders>
