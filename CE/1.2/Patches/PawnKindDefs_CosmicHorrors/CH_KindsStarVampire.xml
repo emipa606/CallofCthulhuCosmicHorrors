@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence">
-    <success>Always</success>
     <operations>
       <li Class="PatchOperationAddModExtension">
-        <xpath>*/ThingDef[defName="ROM_StarVampire"]</xpath>
+        <xpath>/Defs/ThingDef[defName="ROM_StarVampire"]</xpath>
         <value>
           <li Class="CombatExtended.RacePropertiesExtensionCE">
             <bodyShape>QuadrupedLow</bodyShape>
@@ -12,14 +11,16 @@
         </value>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName="ROM_StarVampire"]/statBases</xpath>
+        <xpath>/Defs/ThingDef[defName="ROM_StarVampire"]/statBases</xpath>
         <value>
-          <MeleeDodgeChance>0.26</MeleeDodgeChance>
-          <MeleeCritChance>0.8</MeleeCritChance>
+          <MeleeDodgeChance>0.8</MeleeDodgeChance>
+          <MeleeCritChance>0.7</MeleeCritChance>
+          <MeleeParryChance>0.5</MeleeParryChance>
+          <SmokeSensitivity>0</SmokeSensitivity>
         </value>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>*/ThingDef[defName="ROM_StarVampire"]/tools</xpath>
+        <xpath>/Defs/ThingDef[defName="ROM_StarVampire"]/tools</xpath>
         <value>
           <tools>
             <li Class="CombatExtended.ToolCE">
@@ -27,10 +28,10 @@
               <capacities>
                 <li>ROM_ScratchMonstrous</li>
               </capacities>
-              <power>10</power>
-              <cooldownTime>1.65</cooldownTime>
+              <power>14</power>
+              <cooldownTime>1</cooldownTime>
               <linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-              <armorPenetrationSharp>12</armorPenetrationSharp>
+              <armorPenetrationSharp>14</armorPenetrationSharp>
               <armorPenetrationBlunt>25.6</armorPenetrationBlunt>
             </li>
             <li Class="CombatExtended.ToolCE">
@@ -39,7 +40,7 @@
                 <li>ROM_BluntMonstrous</li>
               </capacities>
               <power>10</power>
-              <cooldownTime>1.65</cooldownTime>
+              <cooldownTime>1</cooldownTime>
               <linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
               <armorPenetrationBlunt>20.6</armorPenetrationBlunt>
             </li>
@@ -49,20 +50,20 @@
                 <li>ROM_ConstrictMonstrous</li>
               </capacities>
               <power>10</power>
-              <cooldownTime>1.65</cooldownTime>
+              <cooldownTime>1.45</cooldownTime>
               <linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-              <armorPenetrationBlunt>20.6</armorPenetrationBlunt>
+              <armorPenetrationBlunt>24.6</armorPenetrationBlunt>
             </li>
             <li Class="CombatExtended.ToolCE">
               <label>teeth</label>
               <capacities>
                 <li>ROM_Exsanguination</li>
               </capacities>
-              <power>7</power>
-              <cooldownTime>1.65</cooldownTime>
+              <power>22</power>
+              <cooldownTime>1.85</cooldownTime>
               <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-              <armorPenetrationSharp>5</armorPenetrationSharp>
-              <armorPenetrationBlunt>12</armorPenetrationBlunt>
+              <armorPenetrationSharp>7.5</armorPenetrationSharp>
+              <armorPenetrationBlunt>14</armorPenetrationBlunt>
             </li>
           </tools>
         </value>

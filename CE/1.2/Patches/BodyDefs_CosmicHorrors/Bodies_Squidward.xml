@@ -7,6 +7,9 @@
             def="Neck" or 
             def="Shoulder" or 
             def="Arm" or 
+            def="Hand" or 
+            def="ROM_RightWing" or 
+            def="ROM_LeftWing" or 
             def="Leg"]/groups
           </xpath>
     <value>

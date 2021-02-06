@@ -2,11 +2,10 @@
 <Patch>
   <Operation Class="PatchOperationAdd">
     <xpath>
-            /Defs/BodyDef[defName="ROM_DeepOneBody"]//*[
+            /Defs/BodyDef[defName="ROM_CthulhidBody"]//*[
             def="Torso" or 
-            def="Head" or 
-            def="Shoulder" or 
             def="Neck" or 
+            def="Shoulder" or 
             def="Arm" or 
             def="Leg"]/groups
           </xpath>

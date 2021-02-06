@@ -24,7 +24,6 @@
             def="ROM_ChthonianThirdRing" or 
             def="ROM_ChthonianFourthRing" or 
             def="ROM_ChthonianFifthRing" or 
-            def="Head" or 
             def="ROM_ChthonianSixthRing"]/groups
           </xpath>
         <value>

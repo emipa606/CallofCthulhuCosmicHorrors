@@ -6,8 +6,6 @@
             def="Torso" or 
             def="Head" or 
             def="Shoulder" or 
-            def="Neck" or 
-            def="Arm" or 
             def="Leg"]/groups
           </xpath>
     <value>
