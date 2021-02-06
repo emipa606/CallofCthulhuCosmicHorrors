@@ -13,7 +13,7 @@
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="ROM_StarVampire"]/statBases</xpath>
         <value>
-          <MeleeDodgeChance>0.8</MeleeDodgeChance>
+          <MeleeDodgeChance>0.9</MeleeDodgeChance>
           <MeleeCritChance>0.7</MeleeCritChance>
           <MeleeParryChance>0.5</MeleeParryChance>
           <SmokeSensitivity>0</SmokeSensitivity>
@@ -29,7 +29,7 @@
                 <li>ROM_ScratchMonstrous</li>
               </capacities>
               <power>14</power>
-              <cooldownTime>1</cooldownTime>
+              <cooldownTime>0.95</cooldownTime>
               <linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
               <armorPenetrationSharp>14</armorPenetrationSharp>
               <armorPenetrationBlunt>25.6</armorPenetrationBlunt>
@@ -40,7 +40,7 @@
                 <li>ROM_BluntMonstrous</li>
               </capacities>
               <power>10</power>
-              <cooldownTime>1</cooldownTime>
+              <cooldownTime>0.95</cooldownTime>
               <linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
               <armorPenetrationBlunt>20.6</armorPenetrationBlunt>
             </li>
@@ -50,7 +50,7 @@
                 <li>ROM_ConstrictMonstrous</li>
               </capacities>
               <power>10</power>
-              <cooldownTime>1.45</cooldownTime>
+              <cooldownTime>1.33</cooldownTime>
               <linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
               <armorPenetrationBlunt>24.6</armorPenetrationBlunt>
             </li>
@@ -59,10 +59,10 @@
               <capacities>
                 <li>ROM_Exsanguination</li>
               </capacities>
-              <power>22</power>
-              <cooldownTime>1.85</cooldownTime>
+              <power>24</power>
+              <cooldownTime>1.75</cooldownTime>
               <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-              <armorPenetrationSharp>7.5</armorPenetrationSharp>
+              <armorPenetrationSharp>7</armorPenetrationSharp>
               <armorPenetrationBlunt>14</armorPenetrationBlunt>
             </li>
           </tools>

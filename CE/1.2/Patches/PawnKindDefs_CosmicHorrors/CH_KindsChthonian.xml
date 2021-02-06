@@ -6,7 +6,7 @@
         <xpath>/Defs/ThingDef[defName="ROM_Chthonian"]</xpath>
         <value>
           <li Class="CombatExtended.RacePropertiesExtensionCE">
-            <bodyShape>Quadruped</bodyShape>
+            <bodyShape>Birdlike</bodyShape>
           </li>
         </value>
       </li>
@@ -14,7 +14,7 @@
         <xpath>/Defs/ThingDef[defName="ROM_Chthonian"]/statBases</xpath>
         <value>
           <MeleeDodgeChance>0.01</MeleeDodgeChance>
-          <MeleeCritChance>0.8</MeleeCritChance>
+          <MeleeCritChance>0.9</MeleeCritChance>
           <MeleeParryChance>0.5</MeleeParryChance>
           <ArmorRating_Sharp>14</ArmorRating_Sharp>
           <ArmorRating_Blunt>32</ArmorRating_Blunt>

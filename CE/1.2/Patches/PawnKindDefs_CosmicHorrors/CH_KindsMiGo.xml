@@ -14,7 +14,7 @@
         <xpath>/Defs/ThingDef[defName="ROM_MiGo"]/statBases</xpath>
         <value>
           <MeleeDodgeChance>0.8</MeleeDodgeChance>
-          <MeleeCritChance>0.25</MeleeCritChance>
+          <MeleeCritChance>0.22</MeleeCritChance>
           <MeleeParryChance>0.8</MeleeParryChance>
           <SmokeSensitivity>0.5</SmokeSensitivity>
           <AimingAccuracy>1.0</AimingAccuracy>

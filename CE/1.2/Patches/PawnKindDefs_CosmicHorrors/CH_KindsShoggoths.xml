@@ -30,7 +30,7 @@
         <xpath>/Defs/ThingDef[defName="ROM_ShoggothTiny"]/statBases</xpath>
         <value>
           <MeleeDodgeChance>0.35</MeleeDodgeChance>
-          <MeleeCritChance>0.4</MeleeCritChance>
+          <MeleeCritChance>0.38</MeleeCritChance>
           <SmokeSensitivity>0</SmokeSensitivity>
         </value>
       </li>
